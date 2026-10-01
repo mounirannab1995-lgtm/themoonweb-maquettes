@@ -1,6 +1,586 @@
 <!doctype html>
-<html>
+<html lang="fr" data-mode="chaud">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Ideal Froid — Pompes à chaleur, climatisation et chauffage à Montbrison</title>
+<meta name="description" content="Ideal Froid, à Montbrison (Loire) : installation, entretien et dépannage de pompes à chaleur, climatisations et chauffe-eau thermodynamiques. Entreprise qualifiée RGE QualiPAC.">
+<meta name="theme-color" content="#fbf3ec">
+<meta property="og:title" content="Ideal Froid — Pompes à chaleur et climatisation à Montbrison">
+<meta property="og:description" content="Au chaud cet hiver, au frais cet été : pompes à chaleur, climatisation, chauffe-eau thermodynamique. Maquette de démonstration.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/og.jpg">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-  <p>Ideal Froid</p>
+
+<!-- ===== Icônes (réutilisées partout avec <use href="#i-...">) ===== -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h3.5l1.7 4.3-2.2 1.4a11.5 11.5 0 0 0 5.3 5.3l1.4-2.2L19 14.5V18a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.8 6.8 12 13l8.2-6.2"/></symbol>
+  <symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2.8v18.4M4.1 7.4l15.8 9.2M4.1 16.6l15.8-9.2M9.6 4.6 12 7l2.4-2.4M9.6 19.4 12 17l2.4 2.4M4.6 11l2.9.9.6-3M19.4 13l-2.9-.9-.6 3M4.6 13l2.9-.9.6 3M19.4 11l-2.9.9-.6-3"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.3M12 19.2v2.3M2.5 12h2.3M19.2 12h2.3M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.6-1.5h1.5V4.4a20 20 0 0 0-2.3-.1c-2.3 0-3.8 1.4-3.8 3.9v2.3H9v3h2.5V21"/></symbol>
+  <symbol id="i-ext" viewBox="0 0 24 24"><path d="M8 16 16 8M9.5 8H16v6.5"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.2 18H15a3.2 3.2 0 0 0 0-6.4H9a3.2 3.2 0 0 1 0-6.4h6.8"/></symbol>
+  <symbol id="i-pac" viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="12.5" rx="2"/><circle cx="9.5" cy="11.25" r="4"/><path d="M9.5 8.8v4.9M7.05 11.25h4.9M16 8.5h3M16 11.25h3M16 14h3M5.5 17.5V19M18.5 17.5V19"/></symbol>
+  <symbol id="i-geo" viewBox="0 0 24 24"><path d="M3.5 10.5 12 4l8.5 6.5M6 9v5.5h12V9M2.5 14.5h19M9.5 14.5v4.2a1.6 1.6 0 0 0 3.2 0v-2a1.6 1.6 0 0 1 3.2 0v-2.2"/></symbol>
+  <symbol id="i-split" viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="7.5" rx="2.2"/><path d="M5.5 9.3h13M7.5 15c1.1 1 1.1 2.5 0 3.5M12 15c1.1 1 1.1 2.5 0 3.5M16.5 15c1.1 1 1.1 2.5 0 3.5"/></symbol>
+  <symbol id="i-cet" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="17" rx="5.5"/><path d="M9.5 21.5h5M12 8.6s-2.2 2.5-2.2 4a2.2 2.2 0 0 0 4.4 0c0-1.5-2.2-4-2.2-4z"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.2a4.2 4.2 0 0 0-5.5 5.3L3.8 16.9l3.3 3.3 5.4-5.4a4.2 4.2 0 0 0 5.3-5.5l-2.6 2.6-2.6-.7-.7-2.6z"/></symbol>
+  <symbol id="i-froid" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="2.6"/><path d="M12 7.2v9.6M7.85 9.6l8.3 4.8M7.85 14.4l8.3-4.8"/></symbol>
+  <symbol id="i-tap" viewBox="0 0 24 24"><path d="M3 4.5v5M3 7h8.2a3 3 0 0 1 3 3v2M11.6 12h5.2M14.2 15.6s-1.6 1.9-1.6 3a1.6 1.6 0 0 0 3.2 0c0-1.1-1.6-3-1.6-3z"/></symbol>
+  <symbol id="i-sprout" viewBox="0 0 24 24"><path d="M12 21v-8.5M12 12.5c0-3.6 2.6-6.2 6.8-6.2 0 3.6-2.6 6.2-6.8 6.2zM12 15c0-2.9-2.1-5.1-5.6-5.1 0 2.9 2.1 5.1 5.6 5.1z"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19.5C5 11 10 6 19.5 4.5 19.5 14 14.5 19 6 19.5zM5 19.5l8.5-8.5"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.6l2.6 5.3 5.8.8-4.2 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.2-4.1 5.8-.8z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5 10 17l9-9.5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13.5 6.5 19 12l-5.5 5.5"/></symbol>
+  <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 7.5h3l1.6-2.5h6.8L17 7.5h3a1.5 1.5 0 0 1 1.5 1.5v9a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 18V9A1.5 1.5 0 0 1 4 7.5z"/><circle cx="12" cy="13" r="3.6"/></symbol>
+</svg>
+
+<a class="skip" href="#contenu">Aller au contenu</a>
+<div class="demo-banner" role="note">Maquette de démonstration — site non officiel, proposée par themoonweb</div>
+<div class="progress" aria-hidden="true"></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<!-- Fond : lumières floues chaudes / froides + grain « verre dépoli » -->
+<div class="ambient" aria-hidden="true"><span class="orb o1"></span><span class="orb o2"></span><span class="orb o3"></span></div>
+
+<!-- ===== EN-TÊTE ===== -->
+<header class="site-head">
+  <a class="brand" href="#top" aria-label="Ideal Froid, retour en haut de la page">
+    <span class="wm" aria-hidden="true">
+      <span class="wm-l1"><b>I</b>DEAL</span>
+      <span class="wm-l2"><b>F</b>ROID</span>
+      <svg class="wm-swoosh" viewBox="0 0 120 44" preserveAspectRatio="none"><path d="M2 42C30 30 62 13 118 5c-50 11-80 25-110 38z"/></svg>
+    </span>
+  </a>
+  <nav class="nav-desk" aria-label="Navigation principale">
+    <a href="#fonctionnement">Comment ça marche</a>
+    <a href="#prestations">Prestations</a>
+    <a href="#saisons">Les 4 saisons</a>
+    <a href="#avis">Avis</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn-glass head-call" data-cfg-tel="tel" href="tel:+33477244089" data-magnet>
+    <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span data-cfg="tel">04 77 24 40 89</span>
+  </a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Ouvrir le menu"><span></span><span></span></button>
+</header>
+
+<div id="menu-mobile" class="menu-mobile" aria-hidden="true">
+  <nav aria-label="Menu mobile">
+    <a href="#fonctionnement">Comment ça marche</a>
+    <a href="#prestations">Prestations</a>
+    <a href="#saisons">Les 4 saisons</a>
+    <a href="#avis">Avis clients</a>
+    <a href="#zone">Zone d'intervention</a>
+    <a href="#contact">Contact &amp; devis</a>
+    <a class="mm-tel" data-cfg-tel="tel" href="tel:+33477244089"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span data-cfg="tel">04 77 24 40 89</span></a>
+    <button class="btn btn-glass" type="button" data-close>Fermer le menu</button>
+  </nav>
+</div>
+
+<main id="contenu">
+
+  <!-- ===== HÉROS : la molette du thermostat ===== -->
+  <section class="hero" id="top" aria-labelledby="titre">
+    <div class="wrap hero-in">
+      <aside class="prospect-panel glass" aria-label="À propos de cette maquette">
+        <div>
+          <p class="eyebrow">Concept de prospection</p>
+          <p class="prospect-title">Un exemple de site pour mieux présenter Ideal Froid.</p>
+          <p class="prospect-copy">Exemple de contenu à personnaliser&nbsp;: cette direction met en valeur vos services et peut évoluer avec vos mots, vos photos et vos priorités.</p>
+        </div>
+        <a class="btn btn-glass prospect-cta" href="#presentation">Échangeons sur le concept<svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </aside>
+      <p class="kicker">
+        <span class="kick-rge" data-cfg-hide="rgeActif"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span data-cfg="rge">RGE QualiPAC</span></span>
+        <span class="kick-txt"><span class="kick-serv">Pompes à chaleur · Climatisation · Chauffage —&nbsp;</span>Montbrison</span>
+      </p>
+
+      <h1 id="titre" class="h1">
+        <span class="sr" data-h1-sr>Au chaud cet hiver.</span>
+        <span class="h1-vis" aria-hidden="true">Au <span class="roll" data-roll><span class="roll-track"><span class="rw rw-chaud">chaud</span> <span class="rw rw-frais">frais</span></span></span> cet <span class="roll" data-roll><span class="roll-track"><span class="rw rw-chaud">hiver.</span> <span class="rw rw-frais">été.</span></span></span></span>
+      </h1>
+
+      <p class="lead swap-wrap">
+        <span class="swap" data-when="chaud">Pompes à chaleur air/eau et géothermiques, chauffe-eau thermodynamiques&nbsp;: Ideal&nbsp;Froid installe, entretient et dépanne votre chauffage, à Montbrison et alentours.</span>
+        <span class="swap" data-when="frais">Climatisation et pompes à chaleur air/air réversibles&nbsp;: Ideal&nbsp;Froid installe, entretient et dépanne vos équipements, à Montbrison et alentours.</span>
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn btn-accent" data-devis data-cfg-hide="email" href="mailto:ideal-froid@orange.fr" data-magnet><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>Demander un devis</a>
+        <a class="btn btn-glass" data-cfg-tel="tel" href="tel:+33477244089" data-magnet><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span>Appeler le <span data-cfg="tel">04 77 24 40 89</span></span></a>
+      </div>
+      <p class="office" data-status-wrap><span class="led" aria-hidden="true"></span><span class="office-l">Bureau</span><span data-status></span></p>
+
+      <!-- La molette : role="slider", souris / doigt / clavier -->
+      <div class="thermo" data-thermo>
+        <button class="mode-btn mode-frais" type="button" data-set="frais" aria-pressed="false">
+          <span class="mb-ico" aria-hidden="true"><svg class="ico"><use href="#i-snow"/></svg></span>
+          <span class="mb-t">Rafraîchir</span>
+          <span class="mb-s">Climatisation, PAC air/air réversible</span>
+        </button>
+
+        <div class="dial-zone">
+          <div class="dial-halo" aria-hidden="true"></div>
+          <div class="dial" data-dial role="slider" tabindex="0"
+               aria-label="Molette du thermostat : rafraîchir ou chauffer"
+               aria-valuemin="0" aria-valuemax="100" aria-valuenow="75" aria-valuetext="Chauffer"
+               aria-describedby="dial-hint">
+            <svg class="dial-svg" viewBox="0 0 400 400" aria-hidden="true">
+              <g class="ticks" data-ticks></g>
+              <path class="dial-track" d=""/>
+              <path class="dial-arc" data-arc d=""/>
+              <g class="dial-ends">
+                <g transform="translate(117 343)"><use href="#i-snow" x="-12" y="-12" width="24" height="24" class="end-snow"/></g>
+                <g transform="translate(283 343)"><use href="#i-sun" x="-12" y="-12" width="24" height="24" class="end-sun"/></g>
+              </g>
+            </svg>
+            <div class="dial-face" aria-hidden="true">
+              <span class="frost"></span>
+              <span class="dial-rotor"><span class="dial-notch"></span></span>
+            </div>
+            <div class="dial-read" aria-hidden="true">
+              <span class="dr-ico"><svg class="ico ico-sun"><use href="#i-sun"/></svg><svg class="ico ico-snow"><use href="#i-snow"/></svg></span>
+              <span class="dr-mode swap-wrap"><span class="swap" data-when="chaud">Chauffer</span><span class="swap" data-when="frais">Rafraîchir</span></span>
+              <span class="dr-sub">Tournez la molette</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="mode-btn mode-chaud" type="button" data-set="chaud" aria-pressed="true">
+          <span class="mb-ico" aria-hidden="true"><svg class="ico"><use href="#i-sun"/></svg></span>
+          <span class="mb-t">Chauffer</span>
+          <span class="mb-s">PAC air/eau, géothermie, chauffe-eau thermodynamique</span>
+        </button>
+
+        <p id="dial-hint" class="dial-hint"><span class="hint-mouse">Glissez la molette ou utilisez les flèches du clavier</span><span class="hint-touch">Faites glisser la molette vers la gauche ou la droite</span>&nbsp;: tout le site passe en mode chaud ou frais.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REPÈRES ===== -->
+  <section class="facts" aria-label="Ideal Froid en bref">
+    <div class="wrap facts-grid">
+      <div class="fact glass" data-reveal data-cfg-hide="depuis">
+        <span class="fact-k">Depuis</span>
+        <span class="fact-v" data-cfg="depuis">2008</span>
+        <span class="fact-l">année de création</span>
+      </div>
+      <div class="fact glass" data-reveal style="--d:1" data-cfg-hide="effyNote">
+        <span class="fact-k">Note Effy</span>
+        <span class="fact-v"><span data-count-cfg="effyNote" data-sep=",">5,0</span><small>/5</small></span>
+        <span class="fact-l"><span data-cfg="effyNbAvis">27</span> avis vérifiés</span>
+      </div>
+      <div class="fact glass" data-reveal style="--d:2" data-cfg-hide="rgeActif">
+        <span class="fact-k">Qualification</span>
+        <span class="fact-v">RGE</span>
+        <span class="fact-l">QualiPAC · Qualit'EnR</span>
+      </div>
+      <div class="fact glass" data-reveal style="--d:3" data-cfg-hide="horaires">
+        <span class="fact-k">Bureau</span>
+        <span class="fact-v fact-v-sm">Lun → Ven</span>
+        <span class="fact-l" data-hours-short>8h–12h · 13h30–18h</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VALEUR DU SITE ===== -->
+  <section id="valeur" class="section value-section">
+    <div class="wrap">
+      <header class="sec-head-row sec-head" data-reveal>
+        <div>
+          <p class="eyebrow">Une présence utile</p>
+          <h2 data-split>Un site pensé pour générer plus de demandes.</h2>
+        </div>
+        <p class="sec-lead">Une page claire et rassurante pour transformer une recherche locale en premier échange.</p>
+      </header>
+      <div class="value-grid">
+        <article class="value-card glass" data-reveal>
+          <span class="value-number">01</span>
+          <h3>Visibilité locale</h3>
+          <p>Présenter les services et la zone d’intervention avec les bons repères pour être trouvé près de chez soi.</p>
+        </article>
+        <article class="value-card glass" data-reveal style="--d:1">
+          <span class="value-number">02</span>
+          <h3>Appels &amp; devis</h3>
+          <p>Des parcours courts et des appels à l’action visibles pour passer naturellement de l’intention à la demande.</p>
+        </article>
+        <article class="value-card glass" data-reveal style="--d:2">
+          <span class="value-number">03</span>
+          <h3>Confiance</h3>
+          <p>Des explications concrètes, des preuves à valider et un ton humain pour rassurer avant le premier contact.</p>
+        </article>
+        <article class="value-card glass" data-reveal style="--d:3">
+          <span class="value-number">04</span>
+          <h3>Pensé mobile</h3>
+          <p>Une lecture confortable et des actions accessibles, même depuis un téléphone en situation de recherche.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMMENT ÇA MARCHE : l'unité extérieure animée ===== -->
+  <section id="fonctionnement" class="section">
+    <div class="wrap">
+      <header class="sec-head" data-reveal>
+        <p class="eyebrow">Comment ça marche</p>
+        <h2 data-split>Une pompe à chaleur ne fabrique pas la chaleur&nbsp;: elle la déplace.</h2>
+      </header>
+
+      <div class="how glass" data-reveal>
+        <div class="scene-box">
+          <div class="scene-art">
+          <svg class="scene" viewBox="0 0 800 400" role="img" aria-labelledby="scene-t">
+            <title id="scene-t">Illustration : une maison reliée à l'unité extérieure d'une pompe à chaleur. Les calories circulent dans les tuyaux, de l'unité extérieure vers la maison en mode chauffage, et dans l'autre sens en mode rafraîchissement.</title>
+            <!-- sol -->
+            <path class="sc-ground" d="M0 352H800"/>
+            <path class="sc-soil" d="M0 352H800V400H0z"/>
+            <!-- maison (coupe) -->
+            <path class="sc-house" d="M48 352V170L232 64l184 106v182z"/>
+            <path class="sc-line" d="M30 176 232 58l202 118"/>
+            <path class="sc-line" d="M48 352V170M416 352V170"/>
+            <path class="sc-floor" d="M48 352h368"/>
+            <rect class="sc-win" x="92" y="226" width="86" height="66" rx="6"/>
+            <path class="sc-line thin" d="M135 226v66M92 259h86"/>
+            <!-- unité intérieure (split) -->
+            <rect class="sc-unit" x="262" y="176" width="128" height="34" rx="9"/>
+            <path class="sc-line thin" d="M276 200h100"/>
+            <!-- air soufflé dans la pièce -->
+            <g class="sc-air-in">
+              <path d="M286 222c-6 14 6 22 0 36s6 22 0 34"/>
+              <path d="M326 222c-6 14 6 22 0 36s6 22 0 34"/>
+              <path d="M366 222c-6 14 6 22 0 36s6 22 0 34"/>
+            </g>
+            <!-- liaisons frigorifiques -->
+            <path class="sc-pipe" d="M390 188H438V318H520"/>
+            <path class="sc-pipe" d="M390 199H428V330H520"/>
+            <path class="sc-heat" d="M390 188H438V318H520"/>
+            <path class="sc-heat sc-heat-2" d="M390 199H428V330H520"/>
+            <!-- unité extérieure -->
+            <rect class="sc-out" x="520" y="226" width="226" height="116" rx="14"/>
+            <circle class="sc-grille" cx="600" cy="284" r="46"/>
+            <circle class="sc-grille thin" cx="600" cy="284" r="34"/>
+            <circle class="sc-grille thin" cx="600" cy="284" r="22"/>
+            <g class="sc-fan" data-fan>
+              <path d="M600 284c-4-14 2-30 14-36 6 10 2 26-14 36z"/>
+              <path d="M600 284c14-4 30 2 36 14-10 6-26 2-36-14z"/>
+              <path d="M600 284c4 14-2 30-14 36-6-10-2-26 14-36z"/>
+              <path d="M600 284c-14 4-30-2-36-14 10-6 26-2 36 14z"/>
+              <circle cx="600" cy="284" r="6"/>
+            </g>
+            <path class="sc-line thin" d="M668 250h56M668 264h56M668 278h56M668 292h56M668 306h56M668 320h56"/>
+            <path class="sc-feet" d="M548 342v10M718 342v10"/>
+            <!-- air rejeté dehors -->
+            <g class="sc-air-out">
+              <path d="M752 262c10-4 18 4 28 0"/>
+              <path d="M752 284c10-4 18 4 28 0"/>
+              <path d="M752 306c10-4 18 4 28 0"/>
+            </g>
+          </svg>
+          <!-- repères numérotés (se déplacent selon le mode) -->
+          <span class="mk mk-1" aria-hidden="true">1</span>
+          <span class="mk mk-2" aria-hidden="true">2</span>
+          <span class="mk mk-3" aria-hidden="true">3</span>
+          </div>
+          <p class="scene-legend"><span class="lg lg-heat">calories transportées</span><span class="lg lg-cool">air plus frais</span><span class="lg lg-warm">air plus chaud</span></p>
+          <p class="scene-note">Illustration simplifiée, à but explicatif.</p>
+        </div>
+
+        <div class="how-text">
+          <div class="seg" role="group" aria-label="Voir le fonctionnement en mode">
+            <button type="button" data-set="chaud" aria-pressed="true"><svg class="ico" aria-hidden="true"><use href="#i-sun"/></svg>Chauffer</button>
+            <button type="button" data-set="frais" aria-pressed="false"><svg class="ico" aria-hidden="true"><use href="#i-snow"/></svg>Rafraîchir</button>
+          </div>
+          <div class="swap-wrap steps-wrap">
+            <ol class="steps swap" data-when="chaud">
+              <li><span class="st-n">1</span><p><strong>Dehors,</strong> l'unité extérieure capte les calories présentes dans l'air, même quand il fait froid.</p></li>
+              <li><span class="st-n">2</span><p><strong>Les liaisons frigorifiques</strong> les transportent jusqu'à la maison.</p></li>
+              <li><span class="st-n">3</span><p><strong>Dans la maison,</strong> la chaleur est diffusée par des unités intérieures, vos radiateurs ou un plancher chauffant.</p></li>
+            </ol>
+            <ol class="steps swap" data-when="frais">
+              <li><span class="st-n">1</span><p><strong>Dans la maison,</strong> l'unité intérieure capte la chaleur de la pièce.</p></li>
+              <li><span class="st-n">2</span><p><strong>Les liaisons frigorifiques</strong> l'emportent vers l'extérieur.</p></li>
+              <li><span class="st-n">3</span><p><strong>Dehors,</strong> l'unité extérieure la rejette&nbsp;: la maison reste au frais. C'est le principe d'une PAC air/air réversible.</p></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRESTATIONS ===== -->
+  <section id="prestations" class="section">
+    <div class="wrap">
+      <header class="sec-head sec-head-row" data-reveal>
+        <div>
+          <p class="eyebrow">Prestations</p>
+          <h2 data-split>Installer, entretenir, dépanner.</h2>
+        </div>
+        <p class="sec-lead">À Montbrison et alentours, Ideal&nbsp;Froid étudie votre projet, pose votre équipement, puis en assure l'entretien et le dépannage.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card glass" data-reveal data-tilt data-modes="chaud">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-pac"/></svg></span>
+          <p class="tag tag-chaud">Chauffer</p>
+          <h3>Pompe à chaleur air/eau</h3>
+          <p>Elle capte les calories de l'air extérieur pour alimenter vos radiateurs ou votre plancher chauffant, et peut aussi produire votre eau chaude.</p>
+        </article>
+        <article class="card glass" data-reveal data-tilt data-modes="chaud" style="--d:1">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-geo"/></svg></span>
+          <p class="tag tag-chaud">Chauffer</p>
+          <h3>Pompe à chaleur géothermique</h3>
+          <p>Elle puise la chaleur stockée dans le sol de votre terrain pour chauffer la maison.</p>
+        </article>
+        <article class="card glass" data-reveal data-tilt data-modes="chaud frais" style="--d:2">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-split"/></svg></span>
+          <p class="tag"><span class="tag-frais">Rafraîchir</span> <span class="tag-chaud">Chauffer</span></p>
+          <h3>Climatisation &amp; PAC air/air</h3>
+          <p>Climatiseurs et pompes à chaleur air/air réversibles&nbsp;: du frais l'été, de la chaleur l'hiver.</p>
+        </article>
+        <article class="card glass" data-reveal data-tilt data-modes="eau" style="--d:3">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-cet"/></svg></span>
+          <p class="tag tag-eau">Eau chaude</p>
+          <h3>Chauffe-eau thermodynamique</h3>
+          <p>Il produit l'eau chaude de la maison en récupérant les calories de l'air.</p>
+        </article>
+        <article class="card glass" data-reveal data-tilt data-modes="chaud frais" style="--d:4">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-wrench"/></svg></span>
+          <p class="tag tag-an">Toute l'année</p>
+          <h3>Entretien &amp; dépannage</h3>
+          <p>Maintenance et dépannage de vos pompes à chaleur et climatisations, dépannage de chauffage.</p>
+        </article>
+        <article class="card glass" data-reveal data-tilt data-modes="frais" data-cfg-hide="froid" style="--d:5">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-froid"/></svg></span>
+          <p class="tag tag-frais">Froid</p>
+          <h3>Installations frigorifiques</h3>
+          <p>Étude et installation de systèmes frigorifiques, selon vos besoins en froid.</p>
+        </article>
+        <article class="card glass" data-reveal data-tilt data-cfg-hide="plomberie" style="--d:6">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-tap"/></svg></span>
+          <p class="tag tag-an">Dépannage</p>
+          <h3>Plomberie</h3>
+          <p>Dépannage de plomberie à Montbrison et alentours.</p>
+        </article>
+        <aside class="card card-cta" data-reveal style="--d:7">
+          <h3>Un projet, une panne&nbsp;?</h3>
+          <p>Décrivez-nous votre besoin&nbsp;: nous étudions votre projet et vous remettons un devis.</p>
+          <a class="btn btn-accent" href="#contact">Demander un devis<svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </aside>
+      </div>
+
+      <!-- Emplacements photos : à remplacer par les vraies photos de chantiers de l'entreprise -->
+      <div class="todo-photos" data-reveal>
+        <figure class="ph"><svg class="ico" aria-hidden="true"><use href="#i-camera"/></svg><figcaption>Photo à fournir<small>une pompe à chaleur installée par l'équipe</small></figcaption></figure>
+        <figure class="ph"><svg class="ico" aria-hidden="true"><use href="#i-camera"/></svg><figcaption>Photo à fournir<small>une climatisation posée chez un client</small></figcaption></figure>
+        <figure class="ph"><svg class="ico" aria-hidden="true"><use href="#i-camera"/></svg><figcaption>Photo à fournir<small>l'équipe ou le camion Ideal Froid</small></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LES 4 SAISONS ===== -->
+  <section id="saisons" class="section">
+    <div class="wrap">
+      <header class="sec-head" data-reveal>
+        <p class="eyebrow">Les 4 saisons</p>
+        <h2 data-split>Une installation qui travaille toute l'année.</h2>
+      </header>
+
+      <div class="year" data-reveal aria-hidden="true">
+        <svg viewBox="0 0 1000 120" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="yearGrad" x1="0" x2="1" y1="0" y2="0">
+              <stop offset="0" stop-color="#3aa0f0"/><stop offset=".5" stop-color="#f26a3d"/><stop offset="1" stop-color="#3aa0f0"/>
+            </linearGradient>
+          </defs>
+          <path class="year-curve" d="M0 100C120 100 180 92 250 78S420 20 500 18 650 30 750 60 900 100 1000 100"/>
+        </svg>
+      </div>
+
+      <div class="seasons">
+        <article class="season glass" data-reveal data-season="hiver">
+          <header><span class="se-ico se-hiver" aria-hidden="true"><svg class="ico"><use href="#i-snow"/></svg></span><h3>Hiver</h3><p class="se-mode">Mode chauffer</p></header>
+          <p>La pompe à chaleur capte les calories de l'air extérieur, ou du sol pour une PAC géothermique, et les restitue dans la maison.</p>
+          <p class="se-tip"><strong>Une panne de chauffage&nbsp;?</strong> Appelez le <a data-cfg-tel="tel" href="tel:+33477244089" data-cfg="tel">04 77 24 40 89</a>.</p>
+        </article>
+        <article class="season glass" data-reveal data-season="printemps" style="--d:1">
+          <header><span class="se-ico se-printemps" aria-hidden="true"><svg class="ico"><use href="#i-sprout"/></svg></span><h3>Printemps</h3><p class="se-mode">Mi-saison</p></header>
+          <p>Les besoins de chauffage diminuent. Le chauffe-eau thermodynamique, lui, continue de produire votre eau chaude toute l'année.</p>
+          <p class="se-tip"><strong>Le bon moment</strong> pour préparer un projet de climatisation avant les fortes chaleurs.</p>
+        </article>
+        <article class="season glass" data-reveal data-season="ete" style="--d:2">
+          <header><span class="se-ico se-ete" aria-hidden="true"><svg class="ico"><use href="#i-sun"/></svg></span><h3>Été</h3><p class="se-mode">Mode rafraîchir</p></header>
+          <p>Une PAC air/air réversible inverse son fonctionnement&nbsp;: elle capte la chaleur à l'intérieur et la rejette dehors.</p>
+          <p class="se-tip"><strong>Pensez-y&nbsp;:</strong> nettoyez régulièrement les filtres de vos unités intérieures.</p>
+        </article>
+        <article class="season glass" data-reveal data-season="automne" style="--d:3">
+          <header><span class="se-ico se-automne" aria-hidden="true"><svg class="ico"><use href="#i-leaf"/></svg></span><h3>Automne</h3><p class="se-mode">Avant l'hiver</p></header>
+          <p>Avant la saison de chauffe, faites vérifier votre installation&nbsp;: un entretien régulier aide votre pompe à chaleur à bien fonctionner.</p>
+          <p class="se-tip"><strong>Prenez rendez-vous</strong> pour l'entretien de votre PAC ou de votre climatisation.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RGE QualiPAC (badge en texte, pas le logo officiel) ===== -->
+  <section id="rge" class="section" data-cfg-hide="rgeActif">
+    <div class="wrap">
+      <div class="rge glass" data-reveal>
+        <div class="seal" aria-hidden="true">
+          <svg viewBox="0 0 200 200">
+            <defs><path id="sealPath" d="M100 100m-74 0a74 74 0 1 1 148 0a74 74 0 1 1-148 0"/></defs>
+            <circle class="seal-ring" cx="100" cy="100" r="92"/>
+            <circle class="seal-ring thin" cx="100" cy="100" r="58"/>
+            <text class="seal-txt"><textPath href="#sealPath" startOffset="0" textLength="458" lengthAdjust="spacing">QUALIPAC · CHAUFFAGE ET ECS · QUALIT'ENR · </textPath></text>
+          </svg>
+          <span class="seal-mid">RGE</span>
+        </div>
+        <div class="rge-txt">
+          <p class="eyebrow">Qualification</p>
+          <h2>Entreprise qualifiée <span data-cfg="rge">RGE QualiPAC</span>.</h2>
+          <p>Ideal&nbsp;Froid est titulaire de la qualification <strong>QualiPAC</strong> (<span data-cfg="rgeModule">module chauffage et ECS</span>), délivrée par Qualit'EnR, pour la pose de pompes à chaleur aérothermiques et géothermiques et de chauffe-eau thermodynamiques. RGE signifie «&nbsp;Reconnu Garant de l'Environnement&nbsp;».</p>
+          <ul class="rge-list">
+            <li data-cfg-hide="rgeNumero"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Numéro QualiPAC&nbsp;: <span data-cfg="rgeNumero">QPAC/47827</span></li>
+            <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Qualification vérifiable à tout moment dans l'annuaire Qualit'EnR</li>
+          </ul>
+          <p class="rge-links">
+            <a class="link" data-cfg-link="rgeLien" href="https://www.qualit-enr.org/entreprises/ideal-froid/" target="_blank" rel="noopener">Vérifier sur qualit-enr.org<svg class="ico" aria-hidden="true"><use href="#i-ext"/></svg></a>
+          </p>
+          <p class="rge-aides">La qualification RGE est souvent demandée pour obtenir des aides publiques à la rénovation énergétique. Pour savoir à quoi votre projet peut prétendre, renseignez-vous sur <a href="https://france-renov.gouv.fr" target="_blank" rel="noopener">france-renov.gouv.fr</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AVIS ===== -->
+  <section id="avis" class="section" data-cfg-hide="avis">
+    <div class="wrap avis-grid">
+      <div class="score" data-reveal>
+        <p class="eyebrow">Avis clients</p>
+        <h2>Ils nous ont fait confiance.</h2>
+        <div class="score-box glass" data-cfg-hide="effyNote">
+          <p class="score-v"><span data-count-cfg="effyNote" data-sep=",">5,0</span><small>/5</small></p>
+          <p class="stars" aria-hidden="true"><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg><svg class="ico"><use href="#i-star"/></svg></p>
+          <p class="score-l"><span data-cfg="effyNbAvis">27</span> avis vérifiés sur Effy<br><small>relevé le <span data-cfg="dateReleve">1er octobre 2026</span></small></p>
+          <a class="link" data-cfg-link="effyUrl" href="https://www.effy.fr/artisans/pro/2251-ideal-froid" target="_blank" rel="noopener">Lire tous les avis sur Effy<svg class="ico" aria-hidden="true"><use href="#i-ext"/></svg></a>
+        </div>
+        <p class="score-pj" data-cfg-hide="pjNote">Également <strong><span data-cfg="pjNote">5</span>/5</strong> sur <a data-cfg-link="pjUrl" href="https://www.pagesjaunes.fr/pros/12240270" target="_blank" rel="noopener">PagesJaunes</a> (<span data-cfg="pjNbAvis">4</span> avis).</p>
+      </div>
+      <div class="reviews" data-reviews>
+        <!-- rempli automatiquement depuis js/config.js > avis -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ZONE D'INTERVENTION ===== -->
+  <section id="zone" class="section">
+    <div class="wrap zone glass" data-reveal>
+      <div class="zone-txt">
+        <p class="eyebrow">Zone d'intervention</p>
+        <h2><span data-cfg="zone">Montbrison et alentours</span>.</h2>
+        <p>Installés ZAC des Granges à Montbrison, nous intervenons chez vous, à Montbrison et dans les communes alentour.</p>
+        <ul class="communes" data-communes data-cfg-hide="communes"></ul>
+        <p class="zone-q">Vous habitez un peu plus loin&nbsp;? Appelez-nous pour savoir si nous pouvons intervenir.</p>
+        <a class="btn btn-glass" data-cfg-tel="tel" href="tel:+33477244089"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span data-cfg="tel">04 77 24 40 89</span></a>
+      </div>
+      <div class="zone-viz" aria-hidden="true">
+        <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span><span class="ring r4"></span>
+        <span class="zone-pin"><svg class="ico"><use href="#i-pin"/></svg></span>
+        <span class="zone-lbl">Montbrison<small>ZAC des Granges</small></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT & DEVIS ===== -->
+  <section id="presentation" class="section presentation-section">
+    <div class="wrap">
+      <div class="presentation glass" data-reveal>
+        <div>
+          <p class="eyebrow">Prochaine étape</p>
+          <h2>Une base à ajuster ensemble.</h2>
+          <p>Ce concept est présenté pour discussion. Le contenu, les visuels, les preuves et les appels à l’action restent à valider avec l’entreprise avant toute publication.</p>
+        </div>
+        <a class="btn btn-accent" href="#contact">Voir le parcours de contact<svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-contact">
+    <div class="wrap contact-grid">
+      <div class="devis" data-reveal>
+        <p class="eyebrow">Contact &amp; devis</p>
+        <h2>Parlons de votre projet.</h2>
+
+        <div class="devis-box glass" data-cfg-hide="email">
+          <p class="devis-q" id="devis-q">Votre projet&nbsp;:</p>
+          <div class="chips" role="group" aria-labelledby="devis-q" data-chips>
+            <button type="button" aria-pressed="true">Pompe à chaleur</button>
+            <button type="button" aria-pressed="false">Climatisation</button>
+            <button type="button" aria-pressed="false">Chauffe-eau thermodynamique</button>
+            <button type="button" aria-pressed="false">Entretien</button>
+            <button type="button" aria-pressed="false">Dépannage</button>
+            <button type="button" aria-pressed="false" data-cfg-hide="plomberie">Plomberie</button>
+            <button type="button" aria-pressed="false">Autre</button>
+          </div>
+          <a class="btn btn-accent btn-wide" data-devis href="mailto:ideal-froid@orange.fr" data-magnet><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>Préparer mon e-mail de devis</a>
+          <p class="devis-note">Le bouton ouvre votre messagerie avec un message prêt à compléter (commune, logement, équipement actuel…). Rien n'est envoyé sans vous.</p>
+        </div>
+
+        <ul class="lines">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span>Bureau</span><a data-cfg-tel="tel" href="tel:+33477244089" data-cfg="tel">04 77 24 40 89</a></li>
+          <li data-cfg-hide="mobile"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg><span>Portable</span><a data-cfg-tel="mobile" href="tel:+33642648261" data-cfg="mobile">06 42 64 82 61</a></li>
+          <li data-cfg-hide="email"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg><span>E-mail</span><a data-cfg-mail="email" href="mailto:ideal-froid@orange.fr" data-cfg="email">ideal-froid@orange.fr</a></li>
+          <li data-cfg-hide="facebook"><svg class="ico" aria-hidden="true"><use href="#i-fb"/></svg><span>Facebook</span><a data-cfg-link="facebook" href="https://www.facebook.com/idealfroidclimatisation" target="_blank" rel="noopener">idealfroidclimatisation</a></li>
+        </ul>
+      </div>
+
+      <div class="visit glass" data-reveal style="--d:1">
+        <h3 class="h-small"><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>Nos bureaux</h3>
+        <p class="addr" data-cfg="adresse">ZAC des Granges, 13 rue des Grands Chênes, 42600 Montbrison</p>
+        <a class="link" data-itineraire href="https://www.google.com/maps/dir/?api=1&amp;destination=Ideal%20Froid%2C%2013%20Rue%20des%20Grands%20Ch%C3%AAnes%2C%2042600%20Montbrison" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-route"/></svg>Itinéraire</a>
+        <div class="hours-box" data-cfg-hide="horaires">
+          <h3 class="h-small"><svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg>Horaires du bureau</h3>
+          <p class="office" data-status-wrap><span class="led" aria-hidden="true"></span><span data-status></span></p>
+          <ul class="hours" data-hours></ul>
+        </div>
+        <p class="pay" data-cfg-hide="paiement">Règlement&nbsp;: <span data-cfg="paiement">virement bancaire ou chèque</span>.</p>
+        <div class="map" data-map>
+          <button class="btn btn-glass" type="button"><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>Afficher la carte</button>
+          <p class="map-note">La carte Google se charge seulement après votre clic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot">
+    <div class="foot-brand">
+      <span class="wm wm-foot" aria-hidden="true"><span class="wm-l1"><b>I</b>DEAL</span><span class="wm-l2"><b>F</b>ROID</span><svg class="wm-swoosh" viewBox="0 0 120 44" preserveAspectRatio="none"><path d="M2 42C30 30 62 13 118 5c-50 11-80 25-110 38z"/></svg></span>
+      <p>Pompes à chaleur · Climatisation · Chauffe-eau thermodynamique · Chauffage<br><span data-cfg="adresse">ZAC des Granges, 13 rue des Grands Chênes, 42600 Montbrison</span></p>
+    </div>
+    <p class="foot-legal">© <span data-year>2026</span> Ideal Froid — maquette réalisée par themoonweb<br><strong>Concept de prospection — informations à valider avec l’entreprise</strong></p>
+  </div>
+</footer>
+
+<!-- Barre fixe sur téléphone -->
+<div class="call-bar">
+  <a class="cb-call" data-cfg-tel="tel" href="tel:+33477244089"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Appeler</a>
+  <a class="cb-devis" data-devis data-cfg-hide="email" href="mailto:ideal-froid@orange.fr"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>Devis</a>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/thermostat.js"></script>
+<script src="js/fx.js"></script>
 </body>
 </html>
