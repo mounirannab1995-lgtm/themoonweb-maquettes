@@ -329,7 +329,7 @@ input[type="range"]:focus-visible { outline: 3px solid var(--sky-ink); outline-o
 
 /* ---------- Encadré de prospection ---------- */
 .prospect-panel {
-  display: grid; gap: 24px; align-items: center; margin-top: clamp(24px, 4vw, 48px);
+  display: grid; gap: 24px; align-items: center; margin-block: clamp(24px, 4vw, 48px);
   width: min(1240px, calc(100% - 2 * var(--gutter))); margin-inline: auto;
   justify-self: center;
   padding-block: 26px; padding-inline: clamp(20px, 4vw, 44px);
